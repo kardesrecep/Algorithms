@@ -2,16 +2,18 @@ package Sorting_Algorithms.InsertionSort;
 
 public class InsertionSort {
     public static void insertionSort(int arr[]){
+
         for(int i= 1; i<arr.length;i++ ){
-            int value = arr[i];
+            int temp = arr[i];
             int j = i-1;
-            //seçilen indexin sol tarafındakiş sayılar büyükse
+            //seçilen indexin sol tarafındaki sayılar büyükse
             //swap işlemi yapılacak
-            while(j>=0 && arr[j]>value){
+            while(j>=0 && arr[j]>temp){
                 arr[j+1] = arr[j];
                 j=j-1;
             }
-            arr[j+1]=value;
+            arr[j+1]=temp;
+
         }
     }
 

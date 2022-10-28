@@ -1,4 +1,4 @@
-Tanım : ilk elemandan son elemana kadar her elemanı kendinden sonra gelen, kendinden
+Tanım : ilk elemandan son elemana kadar her elemanı kendinden sonra gelen,
 küçük elemanların en küçüğü ile yer değiştirme işlemidir.
 
       { 1 , 2 , 3, 10 , 6 , 4 , 7 }  --> sıralıyalım

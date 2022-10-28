@@ -12,5 +12,6 @@ public class InsertionSortRunner {
         InsertionSort.insertionSort(arr1);
         System.out.println(Arrays.toString(arr1));
         System.out.println("*********************");
+
     }
 }
